@@ -24,7 +24,7 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h2>Hello World, I'm</h2>
-          <h1>Jonathan Oktaviano F</h1>
+          <h1>Jonathan O. .F</h1>
           <h3>
             <span ref={textRef}></span>
           </h3>

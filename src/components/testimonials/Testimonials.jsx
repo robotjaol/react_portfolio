@@ -8,7 +8,7 @@ export default function Testimonials() {
       title: "Engineer PT.GS Battery",
       img: "https://media.licdn.com/dms/image/v2/D4E03AQGgFIHlvna3wg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718785199328?e=1733961600&v=beta&t=86TBXZgfgWtTXbbW9r5ramEu8No3OBtz1E1KCZTkuvA",
       icon: "assets/linkedin.png",
-      desc: "In large projects, Jonathan consistently manages to resolve issues with a structured and analytical approach. He doesn’t just focus on the end result but also ensures that the resolution process is smooth and effective. His commitment to quality and resilience makes him a highly reliable partner.",
+      desc: "Jonathan consistently resolves issues with a structured, analytical approach, focusing on both the outcome and a smooth process. His commitment to quality and resilience makes him a reliable partner.",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export default function Testimonials() {
       title: "Electrical Staff Banyubramanta ITS",
       img: "https://media.licdn.com/dms/image/v2/D5603AQFbzthg2rtLZg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722443918285?e=1733961600&v=beta&t=qL2pX6RHcutufhf5TueOd0K78AidkAC6OztrlrS10P4",
       icon: "assets/linkedin.png",
-      desc: " With the wide range of references and methods at his disposal, Jonathan can introduce different perspectives to any project. He can also tailor problem-solving strategies to the team's needs, ensuring optimal results and smooth collaboration. His capabilities significantly contribute to the success of any project.",
+      desc: "With diverse methods and references, he brings fresh perspectives and tailors solutions to the team's needs, ensuring smooth collaboration and contributing significantly to project success.",
       featured: true,
     },
     {
