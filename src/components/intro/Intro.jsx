@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Automation Engineer", "Electrical Designer", "Robotics Developer", "Mechanical Designer"]
+      strings: ["Automation", "Robotics"]
     });
   }, []);
 
@@ -24,9 +24,9 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h2>Hello World, I'm</h2>
-          <h1>Jonathan O. .F</h1>
+          <h1>Jonathan O.F.</h1>
           <h3>
-            <span ref={textRef}></span>
+          Passionate About<span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
