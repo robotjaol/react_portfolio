@@ -1,7 +1,14 @@
 @import "../../global.scss";
 
 .works {
-  background-color: orange;
+  // background-color: orange;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,13 +106,13 @@
             h2 {
               font-size: 20px;
 
-              @include mobile{
+              @include mobile {
                 font-size: 13px;
               }
             }
             p {
               font-size: 13px;
-              @include mobile{
+              @include mobile {
                 display: none;
               }
             }
@@ -126,7 +133,7 @@
           overflow: hidden;
 
           img {
-            width: 600px;
+            width: 1000px;
             // transform: rotate(-10deg);
           }
         }

@@ -9,7 +9,7 @@
   h1 {
     font-size: 50px;
 
-    @include mobile{
+    @include mobile {
       font-size: 20px;
     }
   }
@@ -20,13 +20,31 @@
     list-style: none;
     display: flex;
 
-    @include mobile{
+    @include mobile {
       margin: 10px 0;
       flex-wrap: wrap;
       justify-content: center;
     }
   }
-
+  .come {
+    margin-top : 25px;
+    font-size  : 20px;
+    transition : all 1s ease;
+    text-align: center;
+    &:hover {
+      // background-color: skyblue;
+      transform: scale(1.1);
+      // font-size              : inherit;
+      background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    @include mobile {
+      font-size: 5vw;
+      width: 100%;
+    }
+  }
   .container {
     width: 70%;
     display: flex;
@@ -34,12 +52,12 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @include mobile{
+    @include mobile {
       width: 100%;
     }
 
     .item {
-      width: 220px;
+      width: 300px;
       height: 150px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
@@ -49,10 +67,10 @@
       justify-content: center;
       color: white;
       position: relative;
-      transition: all .5s ease;
+      transition: all 2s ease;
       cursor: pointer;
 
-      @include mobile{
+      @include mobile {
         width: 130px;
         height: 100px;
       }
@@ -70,7 +88,8 @@
       }
 
       &:hover {
-        background-color: orange;
+        background-color: skyblue;
+        transform: scale(1.1);
         img {
           opacity: 0.2;
           z-index: 0;

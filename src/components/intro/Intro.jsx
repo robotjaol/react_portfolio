@@ -10,7 +10,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:60,
-      strings: ["Automation", "Robotics"]
+      strings: ["Automation Technology", "Robotics Technology", "Design Engineering"]
     });
   }, []);
 
@@ -18,7 +18,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/Intro.png" alt="" />
+          <img src="assets/intro-main.png" alt="" />
         </div>
       </div>
       <div className="right">

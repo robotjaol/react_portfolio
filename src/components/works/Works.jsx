@@ -16,7 +16,7 @@ export default function Works() {
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Automation IoT",
+      title: "Automation Project",
       desc:
         "Integrating cutting-edge IoT technologies to automate processes and enhance system intelligence. ",
       img:
@@ -25,9 +25,9 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Project Collaboration",
+      title: "Custom Collaboration Project",
       desc:
-        "Successfully leading and executing projects from concept to completion, ensuring optimal performance and quality. ",
+        "Make your own project",
       img:
         "assets/3.png",
     },
@@ -60,7 +60,7 @@ export default function Works() {
               </div>
               <div className="right">
                 <img
-                  src="assets/sliderfix.png"
+                  src="assets/slider.png"
                   alt=""
                 />
               </div>
